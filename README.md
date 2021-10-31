@@ -14,7 +14,7 @@
 
 
 
-## post table
+## tweets table
 | Column             | Type  | Options     |
 | ----------------   | ------| ----------- |
 | sentence           | text  | null: false |
