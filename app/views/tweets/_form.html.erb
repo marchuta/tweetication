@@ -1,7 +1,7 @@
 <%= form_with(model: @tweet, local: true) do |f| %>
 
   
-
+<%= render 'shared/error_messages', model: f.object %>
 
       <%= f.file_field :image, id:"item-image" %>
       <%= f.text_area :sentence, placeholder: "text", rows: "10" %>
